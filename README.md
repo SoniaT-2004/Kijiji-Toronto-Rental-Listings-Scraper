@@ -10,3 +10,5 @@ Project Structure
 - scrap.py: The main script for scraping rental data from Kijiji, extracting the necessary fields, and saving them to a CSV file.
 - kijiji.csv: A CSV file containing all the scraped rental data with fields like Title, Link, Address, Price, etc.
 - raw_html/: A folder to store raw HTML pages retrieved during scraping for future debugging and analysis.
+
+Libraries: requests, BeautifulSoup4, os, pandas, re
